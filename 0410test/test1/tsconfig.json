@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  // 컴파일할 파일들의 개별 목록을 지정하는 속성
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  // 컴파일 대상에서 제외할 파일들을 지정하는 속성
+  "exclude": ["node_modules"]
+}
